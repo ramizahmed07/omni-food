@@ -39,6 +39,10 @@ section{
     padding: 1%;
 }
 
+i{
+    color: #e67e22;
+}
+
 /* --------- HEADINGS ---------- */
 
 h1, 
@@ -288,4 +292,40 @@ header{
     height: 50px;
     width: auto;
     margin-right: 10px;
+}
+
+/* ----------------------------------------------------------------- */
+/* CITIES */
+/* ----------------------------------------------------------------- */
+
+.cities-box{
+    padding: 1%;
+}
+
+.cities-box img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.cities-box a:link,
+.cities-box a:visited{
+    color: #e67e22;
+    text-decoration: none;
+    border-bottom: 1px solid #e67e22;
+    padding-bottom: 1px;
+    transition: border 0.2s, color 0.2s;
+}
+
+.cities-box a:hover,
+.cities-box a:active{
+    color: #555;
+    border-bottom: 1px solid transparent;
+}
+
+.cities-logo{
+    font-size: 110%;
+    margin-right: 15px;
+    display: inline-block;
+    padding: 1%;
 }
