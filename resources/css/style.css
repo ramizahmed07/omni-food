@@ -448,17 +448,20 @@ cite img{
 /* FORMS */
 /* ----------------------------------------------------------------- */
 
+
 .contact-form{
     width: 60%;
     margin: 0 auto;
 }
+
+
 
 input[type="text"],
 input[type="email"],
 select,
 textarea{
     padding: 7px;
-    width: 50%;
+    width: 100%;
     border-radius: 3px;
     border: 1px solid #ccc;
     color: rgb(129, 127, 127);
@@ -466,7 +469,6 @@ textarea{
 }
 
 input[type="checkbox"]{
-    width: 0;
     margin-right: 1%;
     color: rgb(129, 127, 127); 
     font-weight: 300;
@@ -480,3 +482,75 @@ textarea{
     font-size: 90%;
     color: rgb(158, 158, 158);
 }
+
+/* ----------------------------------------------------------------- */
+/* FORMS */
+/* ----------------------------------------------------------------- */
+
+footer{
+    background-color: #333;
+    padding: 50px;
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+.footer-nav{
+    list-style: none;
+    float: left;
+}
+
+.social-links{
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child{
+    margin-right: 0;
+} 
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited{
+    text-decoration: none;
+    color: #888;
+    font-size: 80%;
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active,
+.social-links li a:hover,
+.social-links li a:active{
+    color: #e67e22;
+}
+
+.social-links li a i{
+    color: #888;
+    font-size: 150%;
+    transition: color 0.2s;
+}
+
+.social-links li a i:hover{
+    color: #e67e22;
+}
+
+.footer-text{
+    text-align: center;
+    margin-top: 30px;
+    color: #888;
+    font-size: 90%;
+}
+
+.author{
+    font-style: italic;
+    
+} 
